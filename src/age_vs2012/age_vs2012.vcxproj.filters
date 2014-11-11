@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{35fa9de6-c110-48d3-bfbb-8a51066def47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{e008f379-ca70-4446-a875-2d3b90ac666e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\app">
+      <UniqueIdentifier>{e76d8411-c776-4e70-bc7e-564d9db49f56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\app">
+      <UniqueIdentifier>{61b00a27-2b6f-499b-b378-9c086b24e2bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\module">
+      <UniqueIdentifier>{9e4f503d-987a-48bf-b775-554f04fd9b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\module">
+      <UniqueIdentifier>{14ab6d71-6bed-4ebb-afca-f92077f1f0b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\platform">
+      <UniqueIdentifier>{c46fe321-a859-4a66-bd86-541d3a00bf3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\platform">
+      <UniqueIdentifier>{2b23353a-740b-45aa-974e-65c72a322859}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\app\ageAppBase.h">
+      <Filter>include\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\module\ageModuleBase.h">
+      <Filter>include\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\platform\agePlatform.h">
+      <Filter>include\platform</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\app\ageAppBase.cpp">
+      <Filter>src\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\module\ageModuleBase.cpp">
+      <Filter>src\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\agePlatform.cpp">
+      <Filter>src\platform</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
